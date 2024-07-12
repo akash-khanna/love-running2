@@ -1,0 +1,37 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: burlywood;
+    position:fixed;
+    width:100%;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    background-color: lightskyblue;
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: coral;
+}
