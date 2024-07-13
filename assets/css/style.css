@@ -1,5 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+@import url('assets/css/color-palletes/pallete3.css')
 
 * {
     margin: 0;
@@ -18,13 +19,33 @@ body {
 
 header {
     background-color: burlywood;
-    position:fixed;
-    width:100%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+nav {
+    align-self: flex-end;
+    position: absolute;
+    background-color: burlywood;
+    top: 100%;
+    width:25%;
+}
+
+#menu {
+    padding: 0px 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    padding-bottom: 5px;
 }
 
 main {
