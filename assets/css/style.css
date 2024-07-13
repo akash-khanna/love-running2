@@ -1,10 +1,10 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
-@import url('assets/css/color-palletes/pallete3.css');
-
+@import url('color-palletes/pallete5.css');
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,14 +15,17 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    color: var(--color5)
 }
 
 header {
-    background-color: burlywood;
+    background-color: var(--color3);
+    padding: 0 1rem;
     position: fixed;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -33,15 +36,27 @@ header a {
 nav {
     align-self: flex-end;
     position: absolute;
-    background-color: burlywood;
+    background-color: var(--color3);
     top: 100%;
-    width:25%;
+    width: 100%;
+    display: none; 
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 #menu {
     padding: 0px 10px;
     list-style-type: none;
-    text-align: center;
 }
 
 #menu li {
@@ -49,10 +64,11 @@ nav {
 }
 
 main {
-    background-color: lightskyblue;
+    background-color: var(--color1);
+    padding-top: 47px;
     flex: 1 0 auto;
 }
 
 footer {
-    background-color: coral;
+    background-color: var(--color2);
 }
