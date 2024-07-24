@@ -1,16 +1,16 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
 @import url('color-palletes/pallete5.css');
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; */
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -18,7 +18,7 @@ body {
     color: var(--color5)
 }
 
-header {
+/* header {
     background-color: var(--color3);
     padding: 0 1rem;
     position: fixed;
@@ -31,13 +31,13 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
+} */
 
 /* h1 {
     text-transform: uppercase;
 } */
 
-nav {
+/* nav {
     position: absolute;
     align-self: flex-end;
     background-color: var(--color3);
@@ -81,4 +81,4 @@ main {
 footer {
     background-color: var(--color2);
     padding: 0 1rem;
-}
+} *
